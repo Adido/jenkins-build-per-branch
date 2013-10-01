@@ -15,8 +15,7 @@ class JenkinsJobManager {
     Boolean dryRun = false
     Boolean noViews = false
     Boolean noDelete = false
-    // set to true - start on create job
-    Boolean startOnCreate = true
+    Boolean startOnCreate = false
 
     JenkinsApi jenkinsApi
     GitApi gitApi
